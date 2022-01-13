@@ -1,0 +1,93 @@
+.card_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card__container--inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+}
+
+.card__container--inner--card--date_time{
+    display: flex;
+    margin-top: 10px;
+}
+.card__container--inner--card--date_time p{
+    margin-left: 10px;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.card__container--inner--card{
+    width: 100%;
+    display: flex;
+    transform: Scale(1);
+    transition: all .1s linear;
+}
+
+.card__container--inner--card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card__container--inner--card .Card_img{
+    width: 300px;
+    height: 200px;
+}
+.card__container--inner--card .icon{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_h2{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.card_para{
+    font-size: 1vw;
+    font-weight: 200;
+    line-height: 14px;
+}
+
+.card_para span{
+    font-weight: bold;
+}
+
+.arrowIcon{
+    display: inline-block;
+    background: red;
+}
+
+/* -------------------------------------------------------------- */
+/* SLICK REACT CAROUSEL */
+/* -------------------------------------------------------------- */
+.slick-next,
+.slick-prev {
+    padding: 6px !important;
+    width: 3.5vw !important;
+    height: 3.5vw !important;
+    cursor: pointer;
+    border: none;
+    border-radius: 5vw;
+    background-color: #fff !important;
+    z-index: 99 !important;
+    box-shadow: rgb(35 35 35 / 50%) 0px 0px 20px 5px !important;
+    top: 40%;
+}
+
+.slick-next:hover,.slick-prev:hover{
+    background: #fff !important;
+}
+

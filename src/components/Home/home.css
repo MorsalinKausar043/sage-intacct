@@ -1,0 +1,10 @@
+.home_heading{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+@media (max-width:488px) {
+    .home_heading{
+        font-size: 40px;
+    }
+}

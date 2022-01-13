@@ -1,0 +1,51 @@
+ul li.f_link{
+    background: rgb(49, 47, 47);
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    color: white;
+}
+
+ul li a{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+ul li.first_footer_logo:hover{
+    background: rgb(59, 100, 235);
+}
+
+ul li.second_footer_logo:hover{
+    background: rgb(54, 148, 236);
+}
+
+ul li.third_footer_logo:hover{
+    background: rgb(111, 177, 240);
+}
+
+ul li.fifth_footer_logo:hover{
+    background: rgb(223, 21, 21);
+}
+
+ul li.sixth_footer_logo:hover{
+    background: rgb(236, 56, 50);
+}
+
+ul li.seventh_footer_logo:hover{
+    background: rgb(44, 206, 11);
+}
+
+.footer_link li{
+    font-size: 14px;
+}
+
+.hr_text,.footer_navi{
+    font-size: 12px;
+    color: gray;
+}
+

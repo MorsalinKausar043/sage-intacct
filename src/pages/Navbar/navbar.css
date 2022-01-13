@@ -1,0 +1,19 @@
+.main_logo{
+    font-size: 25px;
+}
+
+.logo_first{
+    color: rgb(35, 177, 6);
+}
+
+.logo_gap{
+    display: inline-block;
+    background: darkgray;
+    width: 2px;
+    height: 20px;
+    margin: 0 4px;
+}
+
+.logo_second{
+    color: darkgray;
+}
