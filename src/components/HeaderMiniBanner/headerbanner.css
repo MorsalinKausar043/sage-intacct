@@ -1,0 +1,33 @@
+.header_mini_banner_title{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header_mini_banner_para{
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header_mini_banner_btn{
+    border: none;
+    outline: none;
+    margin-bottom: 0;
+    background: transparent;
+    color: rgb(9, 223, 55);
+    font-size: 13px;
+}
+
+.header_mini_banner{
+    border-left: 1px solid black;
+}
+
+@media (max-width:767px) {
+    .header_mini_banner{
+        border-left: none;
+        border-top: 1px solid black;
+        margin-top: 10px;
+        padding: 5px;
+    }
+}

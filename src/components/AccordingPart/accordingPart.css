@@ -1,0 +1,16 @@
+.according_li{
+    font-size: 14px;
+}
+
+.according_li_syntex{
+    color: rgb(8, 223, 72);
+}
+
+.according_page_btn{
+    border: none;
+    outline: none;
+    color: rgb(8, 223, 72);
+    background: transparent;
+    font-family: "poppins";
+    font-size: 13px;
+}
