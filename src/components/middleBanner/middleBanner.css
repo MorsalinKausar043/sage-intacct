@@ -1,0 +1,18 @@
+.listGroupAcc{
+    padding: 15px 0px;
+    transition: all .1s linear;
+    font-size: 17px;
+    user-select: none;
+}
+
+.listGroupAcc:hover{
+    color: rgb(9, 214, 9);
+}
+
+.middle_btn{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(18, 223, 18);
+    text-decoration: underline;
+}

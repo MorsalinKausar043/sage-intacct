@@ -9,13 +9,17 @@ import Sliders from './components/Slider/Slider';
 import Middlebanner from './components/MiddleBenner/Middlebanner';
 import HeaderBanner from './components/HeaderMiniBanner/HeaderBanner';
 import AccordingPart from './components/AccordingPart/AccordingPart';
+import MiddleBanner from './components/middleBanner/MiddleBanner';
+import CarouselBanner from './components/CarouselBanner/CarouselBanner';
 
 const App = () => (
   <>
     <Menubar />
     <Home />
     <HeaderBanner />
-    <AccordingPart/>
+    <AccordingPart />
+    <MiddleBanner />
+    <CarouselBanner/>
     <Middlebanner/>
     <Sliders/>
     <Footer />
